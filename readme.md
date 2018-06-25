@@ -8,6 +8,8 @@ This will be my template for all laravel projects
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Added functionalities
+* [Recaptcha]
+* [Log event listener on login]() - LogSuccessfulLogin.php
 * [Sentry Integration](https://docs.sentry.io/clients/php/integrations/laravel/) - added sentry logging
 * [Event & Listener](https://github.com/evercode1/admin-dash) - Copied some code from admin dash
 
