@@ -8,6 +8,7 @@ This will be my template for all laravel projects
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Added functionalities
+* [Pusher Integration] (https://pusher.com/tutorials/web-notifications-laravel-pusher-channels) Added pusher
 * [Recaptcha] (https://tutsforweb.com/google-recaptcha-laravel-application/) Adding recapthca on register
 * [Log event listener on login]() - LogSuccessfulLogin.php
 * [Sentry Integration](https://docs.sentry.io/clients/php/integrations/laravel/) - added sentry logging
