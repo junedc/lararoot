@@ -13,6 +13,11 @@ These instructions will get you a copy of the project up and running on your loc
 * [Sentry Integration](https://docs.sentry.io/clients/php/integrations/laravel/) - added sentry logging
 * [Event & Listener](https://github.com/evercode1/admin-dash) - Copied some code from admin dash
 
+###  Can be added if needed
+
+* [Authentication and Lockout](http://s4.jeffsbio.co.uk/laravel-5-security-authentication-lets-bring-back-maxloginattempts-and-lockouttime) Authentication max login attempts and lockout.
+* [Google Recapcha Implementation](https://m.dotdev.co/google-recaptcha-integration-with-laravel-ad0f30b52d7d)Add recapcha in login after 5 attempts
+* [Laravel Events](https://stevenwestmoreland.com/2017/03/recording-last-login-information-using-laravel-events.html) Recording last login information using Laravel Events.  read more on [Laravel authentication](https://laravel.com/docs/5.4/authentication#events)
 
 ### Prerequisites
 
