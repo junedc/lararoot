@@ -77,6 +77,21 @@
     </div>
 
     @yield('script')
+
+
+
+    <!-- Scripts -->
+    <script>
+        window.Laravel = {!! json_encode([
+            'user' => Auth::user(),
+            'csrfToken' => csrf_token(),
+            'vapidPublicKey' => config('vapid.publickey'),
+            'pusher' => [
+                'key' => config('pusher.app.key'),
+                'cluster' => config('pusher.app.cluster'),
+            ],
+        ]) !!};
+    </script>
   
 </body>
 </html>

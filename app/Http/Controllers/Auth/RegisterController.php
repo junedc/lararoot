@@ -74,6 +74,8 @@ class RegisterController extends Controller
 
         event(new RegistrationCompleted($user));
 
+        $user->updatePushSubscription($data['endpoint']);
+
         return $user;
     }
 }

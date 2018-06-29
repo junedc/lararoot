@@ -4,10 +4,13 @@ namespace App;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use NotificationChannels\WebPush\HasPushSubscriptions;
+
 
 class User extends Authenticatable
 {
     use Notifiable;
+    use HasPushSubscriptions;
 
     /**
      * The attributes that are mass assignable.
